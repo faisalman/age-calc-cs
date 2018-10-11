@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>Faisalman.AgeCalc</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Faisalman</Authors>
     <Description>C# Age Calculation Library</Description>
     <PackageProjectUrl>https://github.com/faisalman/age-calc-cs</PackageProjectUrl>
