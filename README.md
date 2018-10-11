@@ -2,7 +2,17 @@
 
 C# Age Calculation Library
 
-## Example
+## Installation
+
+```sh
+# Using NuGet Package Manager Console:
+PM> Install-Package Faisalman.AgeCalc
+
+# Using NuGet .NET CLI:
+dotnet add package Faisalman.AgeCalc
+```
+
+## Usage Example
 
 ```cs
 using System;
