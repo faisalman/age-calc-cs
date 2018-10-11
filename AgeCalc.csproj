@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <PackageId>Faisalman.AgeCalc</PackageId>
-    <Version>0.0.2</Version>
-    <Authors>Faisalman</Authors>
-    <Description>C# Age Calculation Library</Description>
+    <Version>0.0.3</Version>
+    <Authors>Faisal Salman</Authors>
+    <Description>AgeCalc.cs - C# age calculation library: calculate relative time (years, months, days) ago since birthday.</Description>
     <PackageProjectUrl>https://github.com/faisalman/age-calc-cs</PackageProjectUrl>
+    <LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
+    <IconUrl>https://github.com/faisalman/age-calc-cs/raw/master/icon.png</IconUrl>
+    <Tags>age-calculator birthday calculate-age relative-time</Tags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>

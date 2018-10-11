@@ -36,4 +36,4 @@ class Program
 
 MIT License
 
-Copyright © 2013 Faisalman <<fyzlman@gmail.com>>
+Copyright © 2013 Faisal Salman <<f@faisalman.com>>
