@@ -54,7 +54,7 @@ namespace Faisalman.AgeCalc
                 if (Cday.Month > Bday.Month)
                 {
                     this.Years = Cday.Year - Bday.Year;
-                    this.Months = Cday.Month - (Bday.Month + 1) + Math.Abs(DaysRemain / DaysInBdayMonth);
+                    this.Months = Cday.Month - (Bday.Month + 1) + Math.Truncate(Math.Abs(DaysRemain / DaysInBdayMonth));
                     this.Days = (DaysRemain % DaysInBdayMonth + DaysInBdayMonth) % DaysInBdayMonth;
                 }
                 else if (Cday.Month == Bday.Month)
@@ -75,7 +75,7 @@ namespace Faisalman.AgeCalc
                 else
                 {
                     this.Years = (Cday.Year - 1) - Bday.Year;
-                    this.Months = Cday.Month + (11 - Bday.Month) + Math.Abs(DaysRemain / DaysInBdayMonth);
+                    this.Months = Cday.Month + (11 - Bday.Month) + Math.Truncate(Math.Abs(DaysRemain / DaysInBdayMonth));
                     this.Days = (DaysRemain % DaysInBdayMonth + DaysInBdayMonth) % DaysInBdayMonth;
                 }
             }
